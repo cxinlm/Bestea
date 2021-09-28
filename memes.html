@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bestea</title>
+    <link rel="stylesheet" type="text/css" href="style4.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <section class="banner">
+      <div class="container">
+        <div id="scene">
+          <div class="layer"><img src="images/memebox.png"  draggable="false"></div> 
+          <div class="stuffone"></div>
+          <div class="stufftwo"></div>
+          <div class="stuffthree"></div>
+          <div class="stufffour"></div>
+          <div class="stufffive"></div>
+          <div class="stuffsix"></div>
+          <div class="stuffseven"></div>
+          <div class="stuffeight"><a href="https://discord.gg/ACBHcWemAV" target="_blank"><h2 class="invibutton">Click here</h2></a></div>
+          <div class="layer2"><a href="index.html"><img src="images/earth.png"  draggable="false"></a></div>
+          <div class="layer3"><img src="images/planet.png"  draggable="false"></div>
+          <div class="layer4"><img src="images/homearrow.png"  draggable="false"></div>
+          <div class="layer5"><img src="images/discarrow.png"  draggable="false"></div>
+          <div class="folder"><a href="chismis.html"><img src="images/folder.png" draggable="false"><h4 class="foldername">Chismis</h4></a></div>
+          <div class="folder2"><a href="memes.html"><img src="images/folder.png" draggable="false"><h4 class="foldername2">Memes</h4></a>
+          </div>
+          <div class="folder3"><a href="nsfw.html"><img src="images/folder.png" draggable="false"><h4 class="foldername3">NSFW</h4></a></div>
+          <div class="folder4"><a href="gallery.html"><img src="images/folder.png" draggable="false"><h4 class="foldername4">Pics</h4></a></div>
+          <div class="folder5"><a href="links.html"><img src="images/folder.png" draggable="false"><h4 class="foldername5">Links</h4></a></div>
+        </div>
+      </div>
+    </section>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <script type="text/JavaScript">
+      //Script courtesy of BoogieJack.com
+      var message="NoRightClicking";
+      function defeatIE() {if (document.all) {(message);return false;}}
+      function defeatNS(e) {if 
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers) 
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+      else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+      document.oncontextmenu=new Function("return false")
+      </script>
+      <script src="scripts/clickable.js"></script>
+  </body>
+</html>

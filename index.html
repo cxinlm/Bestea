@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bestea</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Righteous&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="menu"><img src="images/bubblemenu.png"></div>
+    <a href="main.html" class="chikas">Makichika!<br />Click here.</a>
+    <div class="header">
+      <img src="images/bestea.png" width=500px; height=500px; onContextMenu="return false">
+    </div>
+    <h1 class="title">Bestea!</h1>
+    <h2 class="subtitle">"Ano nang chika mo tea?"</h2>
+    <div class="toptea"></div>
+    <p class="teas"><br>"Mulat ako sa katotohanang 
+    </br>'di ka na niya mahal."<br />
+      ~Anon
+    </p>
+    <p class="sendus">Pabulong naman dito boss:</p>
+    <a href="https://www.facebook.com/BesteaChikas" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/BesteaChikas" target="_blank" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+      <div class="mountain"><img src="images/mountain.png"></div>
+      </div>
+      <script type="text/JavaScript">
+        //Script courtesy of BoogieJack.com
+        var message="NoRightClicking";
+        function defeatIE() {if (document.all) {(message);return false;}}
+        function defeatNS(e) {if 
+        (document.layers||(document.getElementById&&!document.all)) {
+        if (e.which==2||e.which==3) {(message);return false;}}}
+        if (document.layers) 
+        {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+        else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+        document.oncontextmenu=new Function("return false")
+        </script>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+  </body>
+</html>
